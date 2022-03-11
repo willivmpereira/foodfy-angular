@@ -1,0 +1,36 @@
+section.mais-acessadas{
+  margin: 50px auto;
+}
+section.mais-acessadas .display{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px 20px;
+  margin-bottom: 50px;
+}
+
+section.mais-acessadas h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+section.mais-acessadas .display .content img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+section.mais-acessadas .display .content h4{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+section.mais-acessadas .display .content span{
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+}
