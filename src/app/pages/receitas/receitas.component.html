@@ -1,0 +1,15 @@
+
+<section class="mais-acessadas container">
+  <h2>Mais acessadas</h2>
+
+  <div class="display">
+      <div *ngFor="let receita of receitas" class="content">
+          <img [src]="receita.image" alt="">
+          <h4>{{ receita.title }}</h4>
+          <span>por {{ receita.author }}</span>
+      </div>
+
+
+  </div>
+</section>
+
